@@ -47,6 +47,8 @@ namespace Microsoft.IdentityModel.Clients.ActiveDirectory
         /// <param name="accessTokenType">Type of the Access Token returned</param>
         /// <param name="accessToken">The Access Token requested</param>
         /// <param name="expiresOn">The point in time in which the Access Token returned in the AccessToken property ceases to be valid</param>
+        internal AuthenticationResult() { }
+
         internal AuthenticationResult(string accessTokenType, string accessToken, DateTimeOffset expiresOn)
         {
             this.AccessTokenType = accessTokenType;
