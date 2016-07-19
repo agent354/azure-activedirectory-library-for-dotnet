@@ -41,7 +41,7 @@ namespace Microsoft.IdentityModel.Clients.ActiveDirectory
     {
         private const string Oauth2AuthorizationHeader = "Bearer ";
 
-        internal AuthenticationResult() { }
+        //internal AuthenticationResult() { }
 
         /// <summary>
         /// Creates result returned from AcquireToken. Except in advanced scenarios related to token caching, you do not need to create any instance of AuthenticationResult.
